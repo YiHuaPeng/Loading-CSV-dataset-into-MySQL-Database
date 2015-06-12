@@ -1,7 +1,7 @@
 # Loading-CSV-dataset-into-MySQL-Database
 There are a skill for MySQL reading CSV-dataset  
 
-1.Create a CSV format for loading into MySQL
+1.Create a CSV format for loading into MySQL as shown below.
 
 create table yourdata(
 
@@ -15,6 +15,7 @@ CHARACTER SET utf8 COLLATE utf8_unicode_ci; // Be able to read character on MySQ
 
 
 2.loading CSV file 
+
 LOAD DATA INFILE "Directory"
 INTO TABLE yourdata
 COLUMNS TERMINATED BY ','
